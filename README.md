@@ -1,2 +1,17 @@
 # CSC-461-361-PA7-File-System-Under-grads-only-solved
-CSC 461/361 PA7 – File System (Under grads only) solved
+
+Download Here: [CSC 461/361 PA7 – File System (Under grads only) solved](https://jarviscodinghub.com/assignment/pa7-file-system-under-grads-only-solution/)
+
+For Custom/Original Work email jarviscodinghub@gmail.com/whatsapp +1(541)423-7793
+
+ See Piazza for due date and time o Grading the next day • Submit program to perforce in your student directory o Sub directory called:  /PA7/… o Fill out your PA7 Submission Report.pdf  Place it in the same directory as your solution  Enter the final Changelist number of your submission  Write up a quick discussion in the report • What you learned from this assignment so far
+• Learn o File Basics  fopen, fread, fclose, fseek,  (hopefully it’s a review) o Load a dynamic memory in-place file for fast reload and run
+Section 1: Under Grads only – Basic file load and restore.
+• Based on the code provided…. o On perforce under the assignment • Write code to copy the node data to a binary file • Write code to load data from your binary file • Recreate the linked list from your loaded data • Print the linked list data, (like sample) o obviously your pointers will be different, but not your data o append to existing output file
+General: • Write all programs in cross-platform C or C++. o Optimize for execution speed and robustness. • Create a programming file for each problem, for example o Student directory  /PA7/… o Make sure that each problem can be compiled and run through the checked in solution
+Game Optimization Programming Assignment 1
+Optimized C++ PA -7 Fall 2015 Keenan • Do all your work by yourself o Feel free to talk with others about setup, version control, ideas o But do not copy your friend’s code.  Please don’t – I can tell with my difference tools o Feel free to share ideas • Check in the problems multiple times, at least 3 times per problem o Have reasonable check-in comments o Seriously, I’m checking • Make sure that your program compiles and runs o Warning level 4, some times that is not possible due to MS headers… o Your code should be squeaky clean. • We are using Perforce o You should have received the document describing how to login.  Please look at the documentation and videos under the reference directory o Submit program to perforce in your student directory  Sub directory called: /PA7/… • As described above o All your code must compile from perforce with no modifications.  Otherwise it’s a 0, no exceptions
+Game Optimization Programming Assignment 2
+Optimized C++ PA -7 Fall 2015 Keenan
+Simple check list to make sure that everything is checked in correctly • Did you do all Section 1? • Do they compile and run without any errors? • Warning level 4 free (or as close as you can go)? • Submitted it into /PA7 directory? • Can you delete you local drive, regrab the /PA7 directory? o Is all the code there, Does it compile? • Did you check in your text files?
+Most assignments will have hints in a section like this. • Practice your file system stuff • Create several example solutions with different file patterns – fopen, fread, fwrite • Make sure your are using the binary operation and not the text mode. o ‘wt’ – write text o ‘wb’ – write binary o Same for read • Look up file read / write examples from the internet or out of the book o I like the fopen, fwrite way of doing stuff as opposed to the streams. o Either way works, see what is easier for you. • Use the FORUMs o This is much harder than the last assignment. o See me during office hours. o Read, explore, ask questions in class
